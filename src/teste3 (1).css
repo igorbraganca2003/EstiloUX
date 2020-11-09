@@ -1,0 +1,166 @@
+       
+       @import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+       @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+       @import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+       @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css');
+
+        *{
+            margin:0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: 'Bitter', serif;
+            background-color: #efefef;
+            color:gray;
+        }
+
+        /*header*/
+
+        header{
+             background-color: #727272;
+             padding-left:10%;
+             padding-right:10%;
+        }
+
+        header h1{
+            color: white;
+            display: inline-block;
+            width: 20%;
+            padding-top:1%;
+            padding-bottom: 1.5%;
+            font-size: 40px;
+            text-align: center;
+            vertical-align: middle;
+            margin-right: -4px;
+            font-weight: 100;
+        }
+
+        header h1 span{
+            font-size: 50px;
+            font-family: 'Indie Flower', cursive;
+            padding-top:1%;
+            padding-bottom: 1.5%;
+        }
+
+        header nav{
+            display: inline-block;
+            width: 80%;
+            text-align: right;
+            vertical-align: middle;
+            margin-right: -4px;
+        }
+
+        header nav a{
+            color: white;
+            list-style: none;
+            padding: 3%;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+            font-size: 20px;
+            margin-right: -4px;
+            font-weight: 100;
+        }
+
+        /*main*/
+
+        main{
+            width: 70%;
+            margin: 20px auto 0px auto;
+        }
+
+        main section{
+            display: inline-block;
+            margin-right:-4px;
+            width: 70%;
+            background-color: white;
+        }
+
+        main section img{
+            width: 100%;
+        }
+
+        main aside{
+            display: inline-block;
+            margin-right: -4px;
+            margin-left: 2%;
+            width: 25%;
+            vertical-align: top;
+            font-family: 'Spartan', sans-serif;
+            font-size:25px ;
+        }
+
+        main p{
+            font-family: 'Spartan', sans-serif;
+            font-size: 18px;
+            padding-left: 4%;
+            padding-right: 4%;
+            padding-bottom: 6%;
+        }
+
+        main h2{
+            font-family: 'Spartan', sans-serif;
+            font-size: 18px;
+            padding:5%;
+        }
+
+        .aside-box{
+            background-color: white;
+            text-align: center;
+            padding: 0 0 20px 0;
+            margin-bottom: 20px;
+        }
+
+        .aside-box h3{
+            padding: 5%;
+            font-size: 16px;
+            text-align: center;
+            font-family: 'Spartan', sans-serif;
+            border-bottom: 1px solid #efefef;
+        }
+
+        .aside-box input{
+            height: 40px;
+            width: 70%;
+            margin-top: 5%;
+            margin-bottom: 2%;
+        }
+
+        .aside-box button{
+            width: 12%;
+            height:40px;
+            background-color: grey;
+            color: white;
+            border: none;
+        }
+
+        .aside-box ul{
+            margin-left: 15%;
+            margin-right: 10%;
+            text-align: left;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+
+        .aside-box ul li{
+            font-family: 'Spartan', sans-serif;
+            line-height: 150%;
+            font-size: 18px;
+        }
+
+        .aside-box p{
+            padding-top: 10%;
+        }
+
+        .aside-box input txt{
+            margin: 5%;
+        }
+
+        .aside-box #Inscreva-se {
+            margin: 5%;
+            height: 40px;
+            width: 80%;
+            padding-bottom: 0;
+        }
